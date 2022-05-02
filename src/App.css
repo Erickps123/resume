@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+ *{
+   margin: 0;
+   padding: 0;
+ }
+ body{
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+ }
+ /*Header Section*/
+ 
+.header {
+  clear:both;
+}
+
+.header .col {
+display: block;
+float:left;
+padding:2%;
+}
+
+.header .col:first-child { 
+  margin-left: 0; 
+}
+
+.header .col1 {
+width: 50%;
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.header .col2 {
+width: 40%;
+
+}
+.header img{
+  width: 100%;
+  height: 100%;
+}
+
+.header .greetings{
+  margin-top: 10%;
+  text-align: end;
+  font-size: 64px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+@media only screen and (max-width: 480px) {
+.col {  margin: 1% 0 1% 0%;  margin-left: 0 !important;}
+.header .col { width: 100%; }
+#tecnologies .header .col1 img{
+  display: none;
+}
+.profiles{
+  position: fixed;
+display: flex;
+}
+
+}
+
+/*Tecnologies Section*/
+
+.tecnologies-tittle-section{
+  text-align: left;
+  margin-left: 2%;
+}
+
+.tecnologies { 
+  display: flex; 
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.tecnologies div{
+  padding: 2%;
+
+}
+.tecnologies .A img{
+  width: 32px;
+  height: 32px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.progress {
+  border: none;
+  height: 0.5vh;
+  width: 10vw;
+  background: rgb(247, 247, 247);
+}
+
+.progress {
+  color: rgb(255, 255, 255);
+}
+
+.progress::-moz-progress-bar {
+  background: lightcolor;
+}
+
+.progress::-webkit-progress-value {
+  background: #26a61f;
+}
+
+.progress::-webkit-progress-bar {
+  background: rgb(255, 255, 255);
+}
+
+/*Profiles Section*/
+
+.profiles{
+  position: fixed;
+
+}
+.profiles img{
+  width: 32px;
+  height: 32px;
+  
+}
+.profiles a{
+  margin: 10%;
 }

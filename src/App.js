@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Spinner from './components/Spinner';
+import data from './data/cv.json';
+import Home from './pages/Home';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component{
+  constructor(props){
+    super(props);
+    this.state = {loading:true}
+  }
+
+  render(){
+    if(this.state.loading){
+      return <Spinner/>
+    }
+    
+    return ( 
+          <Home data ={data}/>
+    );
+  }
+
+  componentDidMount(){
+    setTimeout(() => {
+    this.setState({loading:false})
+    }, 2000);
+
+  }
+  
 }
 
 export default App;

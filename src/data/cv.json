@@ -1,0 +1,198 @@
+{
+    "info": {
+        "name": "Erick",
+        "lastname": "Piña Sánchez",
+        "abbr": "EPS",
+        "age": 21,
+        "location": "Santo Domingo, DN",
+        "country": "DO",
+        "img_url": "../data/perfil.jpg",
+        "contacts": [
+            {
+                "primary_cellphone": "+1 (849) 406-8604",
+                "secondary_cellphone": "+1 (809) 224-8604",
+                "email": "erickkpsanchez@gmail.com"
+            }
+        ],
+        "references":[
+            {
+                "name": "Leuris J.",
+                "lastname": "Morel N.",
+                "cellphone": "+1 (829) 470-0904",
+                "type": "personal"
+            },
+            { 
+                "name": "Claudia",
+                "lastname": "Guerrero",
+                "cellphone": "+1 (829) 601-2198",
+                "type": "work"
+            }
+            
+        ],
+        "profiles": [
+            {
+                "instagram": "",
+                "linkedln": "https://www.linkedin.com/in/erick-pi%C3%B1a-s%C3%A1nchez-4385b4193/"
+            }
+            
+        ], 
+        "tecnologies": [
+            {
+            "poo_language": [
+                    {
+                    "name": "C#",
+                    "experience": 3
+                    }
+                ],
+                "web_development": [
+                    {
+                    "name": "PHP",
+                    "experience": 4
+                    },
+                    {
+                        "name": "ASP .NET",
+                        "experience": 2
+                    },
+                    {
+                    "name": "JavaScript",
+                    "experience": 4
+                    },
+                    {
+                    "name": "React",
+                    "experience": 4
+                    },
+                    {
+                    "name": "Angular",
+                    "experience": 3
+                    }
+                        
+                       
+                ],
+                "database": [
+                    {
+                    "name": "SQL",
+                    "experience": 3
+                    },
+                    {
+                    "name": "MySQL",
+                    "experience": 4
+                    }
+                ],
+                "datawarehouse": [
+                    {
+                    "name": "Data WareHouses Design",
+                    "experience": 2
+                    }
+                ],
+                "business_intelligence": [
+                    {
+                    "name": "Visual Studio SSIS",
+                    "experience": 3
+                    },
+                    {
+                    "name": "Power BI",
+                    "experience": 4.5
+                    }
+                ],
+                "project_management": [
+                    {
+                    "name": "Project Management and leadership",
+                    "experience": 3
+                    },
+                    {
+                    "name": "Agile Software Development",
+                    "experience": 3
+                    }
+                ]
+            }
+        ],
+        "config_language": [
+            {
+                "english": [
+                {
+                    "academic_background":[
+                        {
+                            "tittle": "IT Tecnician",
+                            "place": "CCED"
+                        },
+                        {
+                            "tittle": "Software Developer",
+                            "place": "ITLA"
+                        }
+                    ],
+                    "work_experience": [
+                        {
+                            "position": "IT Manager",
+                            "place": "Monte de Piedad",
+                            "description": "",
+                            "start_date": "12/02/2021",
+                            "end_date": ""
+                        }    
+                    ],
+                    "personal_skills": ["GIT, Scrum, Data Analysis, Code Analysis", "Clean Code", "Manage cultural change", "Efficient communication"],
+                    "studying": [
+                        {
+                            "name": "Software Engineer",
+                            "place": "Caribbean University"
+                        }
+                    ],
+                    "language": [
+                        {
+                            "name" : "spanish",
+                            "level" : "native"
+                        },
+                        {
+                            "name": "english",
+                            "level": "B2"
+                        }
+                    ]
+                }   
+            ],
+            "spanish": [
+                    {
+                        "academic_background":[
+                        {
+                            "tittle": "Técnico en Informatica",
+                            "place": "CCED"
+                        },
+                        {
+                            "tittle": "Desarrollo de Software",
+                            "place": "ITLA"
+                        }
+                    ],
+                    "work_experience": [
+                        {
+                            "position": "Encargado de Tecnología",
+                            "place": "Monte de Piedad",
+                            "description": "",
+                            "start_date": "12/02/2021",
+                            "end_date": ""
+                        }    
+                    ],
+                    "personal_skills": ["GIT, Scrum, Analisis de Datos, Analisis y comprensión de código", "Clean Code", "Adaptación al cambio", "Comunicación Eficaz"],
+                    "studying": [
+                        {
+                            "name": "Ingeniería en Software",
+                            "place": "UNICARIBE"
+                        }
+                        ],
+                    "language": [
+                        {
+                            "name" : "español",
+                            "level" : "nativo"
+                        },
+                        {
+                            "name": "inglés",
+                            "level": "intermedio"
+                        }
+                    ]
+                }   
+                ]
+            }
+        ]
+    },
+    "config": {
+        "color_palette": ["","",""],
+        "greetings": ["Hi, I am Erick. I'm a FullStack Developer.", "Hola, Me llamo Erick. Soy un Desarrollador FullStack."]
+    }
+}
