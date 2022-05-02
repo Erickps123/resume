@@ -1,6 +1,3 @@
-import imagen from "../data/perfil.jpg"
-
-
 function Header(props){
 
     return(
@@ -10,7 +7,7 @@ function Header(props){
                 {props.greetings}</h2>
             </div>
             <div className="col col2">
-            <img src={imagen} alt="No imagen" />
+            <img src={props.img} alt="No imagen" />
             </div>
         </div>
     );

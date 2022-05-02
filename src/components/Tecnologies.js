@@ -1,7 +1,6 @@
 import React from "react";
-
 import imagen from './src/undraw_creation_re_d1mi.svg'
-import csharp from './src/c-sharp.png'
+
 
 
 
@@ -13,14 +12,15 @@ class Tecnologies extends React.Component{
     }
 
 
-    renderTecnologies(key,name,experience){
+    renderTecnologies(key,name,experience,img,colorcode){
         return(
                <div className="tecnologies" key={key}>
-                    <div className="A"><img src={csharp}/></div>
+                    <div className="A"><img src={img}/></div>
                     <div className="B">{name}</div>
                     <div className="C">
-                    <progress className="progress" value={experience} max="5"></progress>
+                    <progress className={"progress "+colorcode} value={experience} max="5"></progress>
                     </div>
+                    {/* <div className="D">{experience}/5</div> */}
                </div>
            
         );
@@ -36,7 +36,7 @@ class Tecnologies extends React.Component{
             </div>
             <div className="col col2">
             {this.state.data.map((e,index)=>
-                this.renderTecnologies(index,e.name,e.experience) 
+                this.renderTecnologies(index,e.name,e.experience,e.url,e.color) 
             )}
             </div>
         </div>

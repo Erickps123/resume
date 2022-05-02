@@ -53,10 +53,7 @@ width: 40%;
 #tecnologies .header .col1 img{
   display: none;
 }
-.profiles{
-  position: fixed;
-display: flex;
-}
+
 
 }
 
@@ -104,6 +101,21 @@ display: flex;
 
 .progress::-webkit-progress-bar {
   background: rgb(255, 255, 255);
+}
+.purple::-webkit-progress-value {
+  background: #C16EAC !important;
+}
+.purpledark::-webkit-progress-value {
+  background: rgb(119,123,179) !important;
+}
+.yellow::-webkit-progress-value {
+  background: #FFDF00 !important;
+}
+.green-light::-webkit-progress-value {
+  background: #0DA4A5 !important;
+}
+.red-light::-webkit-progress-value {
+  background: #E52A3A !important;
 }
 
 /*Profiles Section*/

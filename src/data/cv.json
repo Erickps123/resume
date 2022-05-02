@@ -6,7 +6,7 @@
         "age": 21,
         "location": "Santo Domingo, DN",
         "country": "DO",
-        "img_url": "../data/perfil.jpg",
+        "img_url": "https://github.com/Erickps123/resume/blob/main/src/data/perfil.jpg?raw=true",
         "contacts": [
             {
                 "primary_cellphone": "+1 (849) 406-8604",
@@ -41,29 +41,41 @@
             "poo_language": [
                     {
                     "name": "C#",
-                    "experience": 3
+                    "experience": 3,
+                    "url" :"https://github.com/Erickps123/resume/blob/main/src/components/src/c-sharp.png?raw=true",
+                    "color":"purple"
                     }
                 ],
                 "web_development": [
                     {
                     "name": "PHP",
-                    "experience": 4
+                    "experience": 4,
+                    "url" :"https://github.com/Erickps123/resume/blob/main/src/components/src/php.png?raw=true",
+                    "color":"purpledark"
                     },
                     {
                         "name": "ASP .NET",
-                        "experience": 2
+                        "experience": 2,
+                        "url" :"https://github.com/Erickps123/resume/blob/main/src/components/src/c-sharp.png?raw=true",
+                        "color":"purple"
                     },
                     {
                     "name": "JavaScript",
-                    "experience": 4
+                    "experience": 4,
+                    "url" :"https://github.com/Erickps123/resume/blob/main/src/components/src/js.png?raw=true",
+                    "color":"yellow"
                     },
                     {
                     "name": "React",
-                    "experience": 4
+                    "experience": 4,
+                    "url" :"https://github.com/Erickps123/resume/blob/main/src/components/src/physics.png?raw=true",
+                    "color":"green-light"
                     },
                     {
                     "name": "Angular",
-                    "experience": 3
+                    "experience": 3,
+                    "url" :"https://github.com/Erickps123/resume/blob/main/src/components/src/angular.png?raw=true",
+                    "color":"red-light"
                     }
                         
                        
@@ -71,37 +83,51 @@
                 "database": [
                     {
                     "name": "SQL",
-                    "experience": 3
+                    "experience": 3,
+                    "url" :"https://github.com/Erickps123/resume/blob/main/src/components/src/servidor-sql.png?raw=true",
+                    "color":"yellow"
                     },
                     {
                     "name": "MySQL",
-                    "experience": 4
+                    "experience": 4,
+                    "url" :"https://github.com/Erickps123/resume/blob/main/src/components/src/mysql.png?raw=true",
+                    "color":"yellow"
                     }
                 ],
                 "datawarehouse": [
                     {
                     "name": "Data WareHouses Design",
-                    "experience": 2
+                    "experience": 2,
+                    "url" :"https://github.com/Erickps123/resume/blob/main/src/components/src/databases.png?raw=true",
+                    "color":"red-light"
                     }
                 ],
                 "business_intelligence": [
                     {
                     "name": "Visual Studio SSIS",
-                    "experience": 3
+                    "experience": 3,
+                    "url" :"https://github.com/Erickps123/resume/blob/main/src/components/src/visual-studio.png?raw=true",
+                    "color":"purpledark"
                     },
                     {
                     "name": "Power BI",
-                    "experience": 4.5
+                    "experience": 4.5,
+                    "url" :"https://github.com/Erickps123/resume/blob/main/src/components/src/PowerBI.jpg?raw=true",
+                    "color":"yellow"
                     }
                 ],
                 "project_management": [
                     {
                     "name": "Project Management and leadership",
-                    "experience": 3
+                    "experience": 3,
+                    "url" :"https://github.com/Erickps123/resume/blob/main/src/components/src/leadership.png?raw=true",
+                    "color":"yellow"
                     },
                     {
                     "name": "Agile Software Development",
-                    "experience": 3
+                    "experience": 3,
+                    "url" :"https://github.com/Erickps123/resume/blob/main/src/components/src/agile.png?raw=true",
+                    "color":"green-light"
                     }
                 ]
             }
