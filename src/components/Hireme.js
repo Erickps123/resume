@@ -82,7 +82,7 @@ function ContactForm(props) {
 }
 function Hireme(props) {
   return (
-    <div className='reveal'>  
+    <div className='container-contact reveal'>  
     <h3 className="tittle-section">{props.title}</h3>
     <ContactForm {...props} />
     </div>
