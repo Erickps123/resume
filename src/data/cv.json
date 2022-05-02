@@ -166,11 +166,13 @@
                     "language": [
                         {
                             "name" : "spanish",
-                            "level" : "native"
+                            "level" : "native",
+                            "url" : "https://github.com/Erickps123/resume/blob/main/src/components/src/spain.png?raw=true"
                         },
                         {
                             "name": "english",
-                            "level": "B2"
+                            "level": "B2",
+                            "url" : "https://github.com/Erickps123/resume/blob/main/src/components/src/united-states.png?raw=true"
                         }
                     ]
                 }   
@@ -206,11 +208,13 @@
                     "language": [
                         {
                             "name" : "español",
-                            "level" : "nativo"
+                            "level" : "nativo",
+                            "url" : "https://github.com/Erickps123/resume/blob/main/src/components/src/spain.png?raw=true"
                         },
                         {
                             "name": "inglés",
-                            "level": "intermedio"
+                            "level": "intermedio",
+                            "url" : "https://github.com/Erickps123/resume/blob/main/src/components/src/united-states.png?raw=true"
                         }
                     ]
                 }   

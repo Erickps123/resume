@@ -28,7 +28,7 @@ class Tecnologies extends React.Component{
    render(){
     return(
         <>
-        <h3 className="tittle-section reveal">Tecnologies</h3>
+        <h3 className="tittle-section reveal">{this.props.title}</h3>
 
         <div className="header reveal">
             <div className="col col1">

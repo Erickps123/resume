@@ -148,15 +148,27 @@ section{
 }
 
 .language div{
-  padding: 2%;
-
+  padding: 1%;
 }
 .language .A img{
   width: 32px;
   height: 32px;
 }
 
+/*Contact Form*/
+.contact-form{
+  margin-top: 2%;
+  align-content: center;
 
+}
+.country-flag{
+  width: 32px;
+  height: 32px;
+}
+.contact-detail ul li i{
+  width: 2px;
+  height: 2px;
+}
 
 /*
 Animations
@@ -173,4 +185,40 @@ Animations
 .reveal.active{
   transform: translateY(0);
   opacity: 1;
+}
+
+/*swipe me down*/
+#notificationBarBottom {
+  position: fixed;
+  z-index: 101;
+  bottom: 0;
+  transform: translateY(calc(100% + 10px));
+  left: 0;
+  right: 0;
+  border: 1 thin;
+  background: transparent;
+  color: #ffffff;
+  text-align: center;
+  line-height: 2.5;
+  overflow: hidden;
+  box-shadow: 0 0 5px black;
+}
+@keyframes slideUp {
+  0% { transform: translateY(100% + 10px); }
+  100% { transform: translateY(0); }
+}
+#notificationBarBottom {
+  animation: slideUp 2.5s ease forwards;
+}
+#close {
+display: none;
+}
+
+/* added to show how to hide with a click */
+@keyframes slideDown {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(100% + 10px); }
+}
+#notificationBarBottom.hideMe {
+  animation: slideDown 2.5s ease forwards;
 }

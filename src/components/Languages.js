@@ -12,13 +12,13 @@ class Languages extends React.Component{
     }
 
 
-    renderLanguages(key,name,experience,img,colorcode){
+    renderLanguages(key,name,experience,img){
         return(
-               <div className="language reveal" key={key}>
+               <div className="language" key={key}>
                     <div className="A"><img src={img}/></div>
                     <div className="B">{name}</div>
                     <div className="C">
-                    <progress className={"progress "+colorcode} value={experience} max="5"></progress>
+                        {experience}
                     </div>
                     {/* <div className="D">{experience}/5</div> */}
                </div>
@@ -27,12 +27,12 @@ class Languages extends React.Component{
     }
    render(){
     return(
-        <>
-        <h3 className="tittle-section">Languages</h3>
+        <div className="reveal">
+        <h3 className="tittle-section">{this.props.title}</h3>
         {this.state.data.map((e,index)=>
-               console.log(e)
+               this.renderLanguages(index,e.name,e.level,e.url)
             )}
-        </>
+        </div>
     );
    }
    componentDidMount(){

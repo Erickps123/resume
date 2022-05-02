@@ -17,7 +17,9 @@ class App extends React.Component{
     }
     
     return ( 
+         <>
           <Home data ={data}/>
+         </>
     );
   }
 
