@@ -32,7 +32,8 @@
         "profiles": [
             {
                 "instagram": "",
-                "linkedln": "https://www.linkedin.com/in/erick-pi%C3%B1a-s%C3%A1nchez-4385b4193/"
+                "linkedln": "https://www.linkedin.com/in/erick-pi%C3%B1a-s%C3%A1nchez-4385b4193/",
+                "github":"https://github.com/Erickps123"
             }
             
         ], 
@@ -219,6 +220,6 @@
     },
     "config": {
         "color_palette": ["","",""],
-        "greetings": ["Hi, I am Erick. I'm a FullStack Developer.", "Hola, Me llamo Erick. Soy un Desarrollador FullStack."]
+        "greetings": ["Hi, I am Erick. I'm a FullStack Developer.", "Hola, Soy Erick. Soy un Desarrollador FullStack."]
     }
 }

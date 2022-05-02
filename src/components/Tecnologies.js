@@ -14,7 +14,7 @@ class Tecnologies extends React.Component{
 
     renderTecnologies(key,name,experience,img,colorcode){
         return(
-               <div className="tecnologies" key={key}>
+               <div className="tecnologies reveal" key={key}>
                     <div className="A"><img src={img}/></div>
                     <div className="B">{name}</div>
                     <div className="C">
@@ -28,9 +28,9 @@ class Tecnologies extends React.Component{
    render(){
     return(
         <>
-        <h3 className="tecnologies-tittle-section">Tecnologies</h3>
+        <h3 className="tittle-section reveal">Tecnologies</h3>
 
-        <div className="header">
+        <div className="header reveal">
             <div className="col col1">
             <img src={imagen} />
             </div>
