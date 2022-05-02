@@ -193,6 +193,6 @@
     },
     "config": {
         "color_palette": ["","",""],
-        "greetings": ["Hi, I am Erick. I'm a Web Developer.", "Hola, Me llamo Erick. Soy un Desarrollador Web."]
+        "greetings": ["Hi, I am Erick. I'm a FullStack Developer.", "Hola, Me llamo Erick. Soy un Desarrollador FullStack."]
     }
 }
