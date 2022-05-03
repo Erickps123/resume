@@ -21,12 +21,12 @@ class Home extends React.Component{
         let greetings = this.props.data.config.greetings;
         let info = this.props.data.info.config_language;
         let general_info = this.props.data.info;
-        document.title = general_info.abbr;
+        document.title = general_info.abbr+"  Resume";
         return(
             <>
             <HandleLanguage onLanguageChange ={this.onChange} />
             <section id='header'>
-                <Header greetings={this.state.lang ==="spanish"? greetings[1]:greetings[0]} img={general_info.img_url} />
+                <Header greetings={this.state.lang ==="spanish"? greetings[1]:greetings[0]} lang={this.state.lang} img={general_info.img_url} />
             </section>
             <section id='tecnologies'>
                 <Tecnologies tecnologies = {general_info.tecnologies} title={this.state.lang ==="spanish"? "Tecnologias":"Tecnologies"}/>
@@ -35,7 +35,7 @@ class Home extends React.Component{
                 <Languages languages = {info[0][this.state.lang][0].language} title={this.state.lang ==="spanish"? "Idiomas":"Languages"}/>
             </section>
             <section id='contact'>
-                <Hireme contact = {general_info.contacts[0]} location = {general_info.location} country={general_info.country} title={this.state.lang ==="spanish"? "Contratame!":"Hire me!"}/>
+                <Hireme contact = {general_info.contacts[0]} location = {general_info.location} country={general_info.country} title={this.state.lang ==="spanish"? "Contratame!":"Hire me!"} labelform={this.state.lang ==="spanish"? ["Nombre","Email","Mensaje"]:["Your name","Your email","Your message"]}/>
                 <div className="ok">
                     <Profiles profiles = {general_info.profiles}/>
                 </div>
