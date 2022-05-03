@@ -41,6 +41,7 @@ class Languages extends React.Component{
                 languages.push(value)
        })
       this.setState({data:languages})
+      console.log(languages)
    }
 }
 
