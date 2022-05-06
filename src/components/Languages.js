@@ -1,8 +1,4 @@
 import React from "react";
-import imagen from './src/undraw_creation_re_d1mi.svg'
-
-
-
 
 
 class Languages extends React.Component{
@@ -11,16 +7,14 @@ class Languages extends React.Component{
         this.state = {data:[]}
     }
 
-
     renderLanguages(key,name,experience,img){
         return(
                <div className="language" key={key}>
-                    <div className="A"><img src={img}/></div>
+                    <div className="A"><img src={img} alt=""/></div>
                     <div className="B">{name}</div>
                     <div className="C">
                         {experience}
                     </div>
-                    {/* <div className="D">{experience}/5</div> */}
                </div>
            
         );
@@ -37,7 +31,7 @@ class Languages extends React.Component{
    }
    componentDidMount(){
        var languages = []
-        Object.entries(this.props.languages).forEach(([tittle, value]) => {
+        Object.entries(this.props.languages).forEach(([title,value]) => {
                 languages.push(value)
        })
       this.setState({data:languages})

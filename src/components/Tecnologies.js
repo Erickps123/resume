@@ -20,7 +20,7 @@ class Tecnologies extends React.Component{
                     <div className="C">
                     <progress className={"progress "+colorcode} value={experience} max="5"></progress>
                     </div>
-                    {/* <div className="D">{experience}/5</div> */}
+                   
                </div>
            
         );
@@ -52,7 +52,7 @@ class Tecnologies extends React.Component{
             })
        })
       this.setState({data:tecnologies})
-      //console.log(tecnologies)
+    
    }
 }
 

@@ -1,13 +1,7 @@
-import { useEffect, useState } from "react";
 import TypeIt from "typeit-react";
 
 function Header(props){
-    const [language,setLanguage] = useState(props.lang)
-   
-    useEffect(() => {
-      
-    }, [props.lang])
-    
+
     return(
         <div className="header">
             <div className="col col1">

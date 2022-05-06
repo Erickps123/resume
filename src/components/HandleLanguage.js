@@ -11,18 +11,18 @@ class HandleLanguage extends React.Component
         this.handleClicEnglish = this.handleClicEnglish.bind(this)
     }
 
-    handleClickSpanish(e){
+    handleClickSpanish(){
         this.props.onLanguageChange("spanish")
     }
-    handleClicEnglish(e){
+    handleClicEnglish(){
         this.props.onLanguageChange("english")
     }
    render(){
     return(
         <div className="handleLanguage">
-            <img src={ES} onClick={this.handleClickSpanish} value="spanish" />
+            <img src={ES} onClick={this.handleClickSpanish} alt="" value="spanish" />
             <label>/</label>
-            <img src={EN} onClick={this.handleClicEnglish} value="english"/>
+            <img src={EN} onClick={this.handleClicEnglish} alt="" value="english"/>
         </div>  
         );
     }

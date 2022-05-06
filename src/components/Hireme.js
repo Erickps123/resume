@@ -1,15 +1,17 @@
 import React from 'react';
 import DO from './src/dominican-republic.png';
 import { useForm, ValidationError } from '@formspree/react';
+
+
 function ContactForm(props) {
   const [state, handleSubmit] = useForm("xayvlarn");
+
   if (state.succeeded) {
-      return <p>Thanks for Contact me!</p>;
+    return <p>Thanks for Contact me!</p>;
   }
- 
+
   return (
-      
-        <section className="contact-form mb-4">
+  <section className="contact-form mb-4">
         <div className="row">
             <div className="col-md-9 mb-md-0 mb-5">
                 <form id="contact-form" name="contact-form" onSubmit={handleSubmit}>
@@ -32,11 +34,7 @@ function ContactForm(props) {
                                 />
                             </div>
                         </div>
-    
-
                     </div>
-    
-    
                     <div className="row">
                         <div className="col-md-12">
                             <div className="md-form">
@@ -61,7 +59,7 @@ function ContactForm(props) {
         <div className="col-md-3 text-center contact-detail">
             <ul className="list-unstyled mb-0">
                 <li><i className="fa fa-map-marker"></i>
-                    <p>{props.location} <img className='country-flag' src={DO}/></p>
+                    <p>{props.location} <img className='country-flag' src={DO} alt=""/></p>
                    
                 </li>
 
@@ -76,8 +74,6 @@ function ContactForm(props) {
         </div>
     </div>
 </section>
-
-
   );
 }
 function Hireme(props) {
