@@ -93,6 +93,12 @@
                     "experience": 4,
                     "url" :"https://github.com/Erickps123/resume/blob/main/src/components/src/mysql.png?raw=true",
                     "color":"yellow"
+                    },
+                    {
+                    "name": "MongoDB",
+                    "experience": 2.5,
+                    "url" :"https://github.com/Erickps123/resume/blob/main/src/components/src/mongo.png?raw=true",
+                    "color":"green-light"
                     }
                 ],
                 "datawarehouse": [
